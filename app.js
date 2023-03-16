@@ -74,7 +74,7 @@ addBtn.addEventListener("click", function () {
   checkItemState();
 
   if (trackNum.innerText === "0") {
-    alert("Please select an item.");
+    alert("Please select an amount for this item.");
   } else {
     itemState = true;
     alert("Item added to cart.");
